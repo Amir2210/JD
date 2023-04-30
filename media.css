@@ -1,0 +1,212 @@
+@media (max-width: 1024px) {
+  .header {
+    background: url("../project_resources/img/showcase.jpg") no-repeat center center/cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+  }
+  .header .container {
+    display: flex;
+  }
+  .header .container .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+  }
+  .header #navbar a {
+    font-size: 15px;
+    margin: 0 10px;
+  }
+  .header h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .header p {
+    font-size: 1.4rem;
+  }
+  .header .content-main {
+    text-align: center;
+    padding-top: 35%;
+    font-size: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .header {
+    background: url("../project_resources/img/showcase.jpg") no-repeat center center/cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+  }
+  .header .container {
+    display: flex;
+  }
+  .header .container .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+  }
+  .header #navbar a {
+    font-size: 15px;
+    margin: 0 10px;
+  }
+  .header h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .header p {
+    font-size: 1.4rem;
+  }
+  .header .content-main {
+    text-align: center;
+    padding-top: 35%;
+    font-size: 30px;
+  }
+  #specialize .icons {
+    grid-template-columns: 1fr;
+  }
+  #specialize .icons p {
+    font-size: 1.6rem;
+  }
+  #specialize .boxes {
+    grid-template-columns: 1fr;
+  }
+  #footer {
+    height: 100%;
+  }
+  #footer .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #footer .container div:nth-child(2) i {
+    padding: 0.8rem;
+    margin: 10px;
+  }
+  .header-about {
+    height: 12vh;
+    padding: 0;
+  }
+  .header-about .container {
+    display: flex;
+  }
+  .header-about .container .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+  }
+  .header-about #navbar a {
+    font-size: 13.5px;
+    margin: 0 10px;
+  }
+  #main-about .img-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+  #main-about .icons {
+    grid-template-columns: 1fr;
+  }
+  #banner {
+    text-align: center;
+  }
+  #banner .container {
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+  }
+  #testimonial {
+    padding: 0.2rem;
+  }
+  #testimonial p {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+  }
+  #testimonial img {
+    width: 100px;
+  }
+  #testimonial .testimonial-people {
+    align-items: center;
+    text-align: center;
+  }
+  #testimonial .testimonial-people div p {
+    font-size: 13px;
+  }
+  #testimonial .testimonial-people .box {
+    padding: 0.3rem;
+    margin-top: 1rem;
+  }
+  #work-img {
+    padding: 0.5rem;
+  }
+  #work-img p {
+    margin-bottom: 10px;
+    font-size: 23px;
+  }
+  #work-img .items {
+    grid-template-columns: 1fr;
+  }
+  #work-img .items .item-image {
+    margin-bottom: 1px;
+  }
+  #contact {
+    padding: 0.5rem;
+  }
+  #contact .container {
+    padding: 0.3rem;
+  }
+  #contact .text-field {
+    grid-gap: 0.5rem;
+  }
+  #contact .text-field .text-input {
+    padding: 0.4rem;
+    width: 90%;
+  }
+  #contact .text-field .message {
+    width: 95%;
+  }
+  #icons {
+    padding: 0.4rem;
+  }
+  #icons .icons-logo {
+    grid-template-columns: 1fr;
+  }
+  #icons .icons-logo i {
+    margin-bottom: 0.5rem;
+  }
+  #icons .icons-logo p {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+}
+@media only screen and (min-device-width: 390px) and (max-device-width: 844px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .header .container {
+    padding: 1.5rem;
+  }
+  .header .content-main {
+    padding: 0;
+  }
+  .header #navbar a {
+    font-size: 15px;
+    margin: 0 2px;
+  }
+  #specialize .boxes {
+    padding: 0;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #specialize .boxes div:first-child {
+    grid-column: 2/span 2;
+    grid-row: 1/span 1;
+  }
+  #specialize .boxes i {
+    margin-bottom: 1rem;
+  }
+  #specialize .my-creative .container {
+    padding: 1rem;
+  }
+  #specialize .my-creative .container p {
+    font-size: 15px;
+  }
+  .header-about {
+    height: 25vh;
+  }
+}/*# sourceMappingURL=media.css.map */

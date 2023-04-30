@@ -1,0 +1,484 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  line-height: 1.6;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 3px transparent solid;
+  padding-bottom: 0.5rem;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+  padding: 0 1rem;
+  overflow: hidden;
+}
+
+.header {
+  background: url("../project_resources/img/showcase.jpg") no-repeat center center/cover;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  color: #fff;
+}
+.header .container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.header .container .logo {
+  width: 70px;
+  height: 70px;
+}
+.header #navbar a {
+  color: #f4f4f4;
+  font-size: 18px;
+  margin: 0 14px;
+  transition: border-color 0.5s;
+  font-weight: bolder;
+  border-bottom: 3px transparent solid;
+}
+.header #navbar a:hover {
+  border-bottom: #ccc 3px solid;
+}
+.header #navbar a.current {
+  border-color: #ffbc00;
+}
+.header .content-main {
+  text-align: center;
+  padding-top: 10%;
+  font-size: 30px;
+}
+.header h1 {
+  font-size: 4rem;
+  line-height: 1.2;
+}
+
+.btn-dark, .btn-light, .btn-main {
+  font-size: 15px;
+  font-weight: 100;
+  display: inline-block;
+  padding: 10px;
+  height: 50px;
+  width: 150px;
+  transition: all 0.8s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-main {
+  color: #333;
+  background-color: #ffbc00;
+}
+.btn-light {
+  color: #333;
+  background-color: #f4f4f4;
+}
+.btn-dark {
+  color: #f4f4f4;
+  background-color: #333;
+}
+.btn:hover {
+  background-color: #ffbc00;
+}
+
+.box-dark, .box-light {
+  padding: 4.5rem;
+}
+
+.box-light {
+  background: #f4f4f4;
+}
+.box-dark {
+  background: #c0c0c0;
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#specialize {
+  text-align: center;
+}
+#specialize h1 {
+  display: inline-block;
+  border-bottom: #ffbc00 2px solid;
+  padding-bottom: 5px;
+  font-weight: 1000;
+  font-size: 35px;
+  margin: 1rem 0;
+}
+#specialize p {
+  font-size: larger;
+  margin: 10px 0;
+}
+#specialize .container {
+  padding: 1rem;
+  margin-top: 20px;
+}
+#specialize .icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  text-align: center;
+}
+#specialize .icons i {
+  margin-bottom: 2rem;
+  color: #ffbc00;
+}
+#specialize .boxes {
+  margin-top: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+#specialize .boxes i {
+  margin-bottom: 5rem;
+}
+#specialize .boxes h2 {
+  font-size: 20px;
+}
+#specialize .boxes p {
+  font-size: 32px;
+  font-weight: bolder;
+}
+#specialize .my-creative {
+  margin-top: 3rem;
+}
+#specialize .my-creative .number-buble {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 28px;
+  background: #ffbc00;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  line-height: 15px;
+  padding: 1rem;
+  text-align: center;
+  transition: all 1s;
+}
+#specialize .my-creative .ic {
+  border-radius: 50%;
+  background: #333;
+  color: white;
+  padding: 2rem;
+  position: relative;
+  transition: all 1s;
+  line-height: 70px;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+#specialize .my-creative .ic:hover {
+  background: #ffbc00;
+  cursor: pointer;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+}
+#specialize .my-creative .ic:hover .number-buble {
+  background: #333;
+}
+#specialize .my-creative .icons i {
+  color: #fff;
+}
+#specialize .my-creative .icons h2 {
+  margin-top: 3rem;
+}
+
+#footer {
+  background: #333;
+  color: #fff;
+  height: 50px;
+  padding: 1.5rem;
+  font-size: 20px;
+  text-align: center;
+}
+#footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+#footer .container div:nth-child(2) i {
+  padding: 1rem;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin: 0 12px;
+}
+#footer .container div:nth-child(2) i:hover {
+  transition: all 1s;
+  background: #ffbc00;
+}
+
+.header-about {
+  height: 11vh;
+  background: url("../project_resources/img/showcase.jpg") no-repeat center top/cover;
+  padding: 0.5rem;
+  overflow-x: hidden;
+  border-bottom: solid 3px #ffbc00;
+}
+
+#main-about {
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+  overflow-x: hidden;
+}
+#main-about h1 {
+  display: inline-block;
+  border-bottom: #ffbc00 2px solid;
+  padding-bottom: 5px;
+  font-weight: 1000;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+#main-about p {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+#main-about .img-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1rem;
+}
+#main-about .img-content img {
+  width: 100%;
+}
+#main-about .img-content div:nth-child(2) {
+  border-left: 2px solid #ffbc00;
+  background: #f4f4f4;
+  padding: 1.5rem;
+}
+#main-about .icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 1.5rem;
+  padding: 1rem;
+  grid-gap: 2rem;
+}
+#main-about .icons i {
+  color: #ffbc00;
+}
+
+#bars {
+  padding: 1rem;
+  text-align: center;
+  background: #333;
+}
+#bars h1 {
+  color: #f4f4f4;
+  display: inline-block;
+  border-bottom: #ffbc00 2px solid;
+  padding-bottom: 5px;
+  font-weight: 1000;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+#bars h3 {
+  color: #f4f4f4;
+}
+#bars .container {
+  text-align: left;
+}
+
+.bar {
+  width: 90%;
+  height: 20px;
+  background: #f4f4f4;
+  margin-bottom: 1rem;
+}
+.bar h3 {
+  margin-bottom: 3rem;
+}
+
+.bar-orange {
+  background: #ffbc00;
+}
+
+#banner {
+  padding: 4rem;
+  background: #f4f4f4;
+}
+#banner img {
+  width: 200px;
+}
+#banner .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+#testimonial {
+  padding: 4rem;
+  text-align: center;
+}
+#testimonial h1 {
+  color: #333;
+  display: inline-block;
+  border-bottom: #ffbc00 2px solid;
+  padding-bottom: 5px;
+  font-weight: bolder;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+#testimonial p {
+  font-size: 22px;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+#testimonial img {
+  width: 130px;
+  border-radius: 50%;
+  border: 3px solid #ffbc00;
+}
+#testimonial .testimonial-people {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+#testimonial .testimonial-people .box {
+  border: 3px solid #f4f4f4;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+#testimonial .testimonial-people div p {
+  font-size: 16px;
+}
+
+#work-img {
+  text-align: center;
+  padding: 1rem;
+}
+#work-img h1 {
+  color: #333;
+  display: inline-block;
+  border-bottom: #ffbc00 2px solid;
+  padding-bottom: 5px;
+  font-weight: bolder;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+#work-img p {
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+#work-img .items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.6);
+}
+#work-img .items .item-image {
+  position: relative;
+  cursor: pointer;
+}
+#work-img .items .item-text {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 188, 0, 0.8);
+  opacity: 0;
+  display: flex;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+#work-img .items .item-text:hover {
+  opacity: 1;
+}
+
+#contact {
+  text-align: center;
+  padding: 1rem;
+}
+#contact h1 {
+  text-transform: capitalize;
+  display: inline-block;
+  border-bottom: #ffbc00 2px solid;
+  padding-bottom: 5px;
+  font-weight: 1000;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+#contact p {
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+#contact .container {
+  padding: 1rem;
+}
+#contact .text-field {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+#contact .text-field .text-input {
+  padding: 0.59rem;
+  margin-bottom: 1.2rem;
+  border: #333 1px solid;
+}
+#contact .text-field .text-input:focus {
+  outline: none;
+  border: #ffbc00 2.5px solid;
+}
+#contact .text-field .text-input:last-child {
+  grid-column: 1/span 2;
+  grid-row: 3/span 10;
+}
+#contact button {
+  width: 75%;
+}
+#contact button:hover {
+  background: #ffbc00;
+}
+
+#icons {
+  padding: 1rem;
+  text-align: center;
+  background: #f4f4f4;
+}
+#icons .icons-logo {
+  padding: 2.1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}/*# sourceMappingURL=style.css.map */
