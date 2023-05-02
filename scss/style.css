@@ -465,6 +465,7 @@ img {
   grid-column: 1/span 2;
 }
 #contact button {
+  margin: 1rem 0;
   width: 75%;
 }
 #contact button:hover {
