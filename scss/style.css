@@ -461,7 +461,7 @@ img {
   outline: none;
   border: #ffbc00 2.5px solid;
 }
-#contact .text-field .text-input:last-child {
+#contact .text-field .text-input:nth-child(5) {
   grid-column: 1/span 2;
   grid-row: 3/span 10;
 }
