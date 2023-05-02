@@ -181,14 +181,16 @@
     padding: 0.3rem;
   }
   .text-field{
-    grid-gap:0.5rem;
+    grid-template-columns: 1fr;
+    grid-gap: 0.4rem;
     .text-input{
-      padding: 0.4rem;
+      padding: 1rem;
       width: 90%;
+      &:nth-child(5){
+        grid-column: 1 / span 1;
+      }
     }
-    & .message{
-      width: 95%;
-    }
+ 
   }
 }
 

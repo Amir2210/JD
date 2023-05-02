@@ -154,14 +154,15 @@
     padding: 0.3rem;
   }
   #contact .text-field {
-    grid-gap: 0.5rem;
+    grid-template-columns: 1fr;
+    grid-gap: 0.4rem;
   }
   #contact .text-field .text-input {
-    padding: 0.4rem;
+    padding: 1rem;
     width: 90%;
   }
-  #contact .text-field .message {
-    width: 95%;
+  #contact .text-field .text-input:nth-child(5) {
+    grid-column: 1/span 1;
   }
   #icons {
     padding: 0.4rem;
